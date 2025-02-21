@@ -4,25 +4,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=dark_mode" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <ul class="text-lg font-bold flex flex-between gap-6 items-center">
-                <li>Home</li>
-                <li>Skill</li>
-                <li>Project</li>
-                <li>Contact</li>
-                <li>Profile</li>
-            </ul>
-        </nav>
-    </header>
-    <tbody>
-        
-    </tbody>
-    <footer>
-
-    </footer>
+<body onmousedown="return false" onselectstart="return false">
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <a class="item" href="#home">
+                <div data-text="Home" class="linkText">Home</div>
+                </a>
+                <a class="item" href="#education">
+                <div data-text="Education" class="linkText">Education</div>
+                </a>
+                <a class="item" href="#skill">
+                    <div data-text="Skill" class="linkText">Skill</div>
+                </a>
+                <a class="item" href="#portfolio">
+                <div data-text="Portfolio" class="linkText">Portfolio</div>
+                </a>
+                <a class="item" href="#contact">
+                <div data-text="Contact" class="linkText">Contact</div>
+                </a>
+            </nav>
+        </div>
+        <div>
+            <section id="home" >
+                <div class="home">
+                    <h1>PHAN MINH QUOC</h1>
+                    <h3>FULL-STACK DEVELOPER</h3>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://image.ibb.co/dUTfmJ/profile_img.jpg" alt="profile one">
+                        </div>
+                        <div class="details">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus consequuntur laudantium consectetur explicabo tenetur labore eos officia, quisquam magni id recusandae accusamus, aspernatur odit laboriosam quis eligendi assumenda dolorem!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus consequuntur laudantium consectetur explicabo tenetur labore eos officia, quisquam magni id recusandae accusamus, aspernatur odit laboriosam quis eligendi assumenda dolorem!
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="education" class="education">
+                <div class="view">
+                    <div class="view-education">
+                        <img class="image-education" src="img/logo_hutech.png" alt="">
+                        <div class="content-education">
+                            <h1>Information Technology</h1>
+                            <h2>Software Engineer</h2>
+                            <p>Final years student</p>
+                            <p>GPA: <strong>3.0/4.0</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skill" class="skill">
+                <div class="view">
+                    <!-- <h1>SKILL</h1> -->
+                    <div class="container-skill">
+                        <div class="skill-box">
+                            <div class="img">
+                                <img src="img/html.jpg" alt="" class="skill-icon">
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="img">
+                                <img src="img/css.png" alt="" class="skill-icon" >
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="img">
+                                <img src="img/JS.png" alt="" class="skill-icon">
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="img">
+                                <img src="img/react.png" alt="" class="skill-icon">
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="img">
+                                <img src="img/tailwind.png" alt="" class="skill-icon">
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="img">
+                                <img src="img/mongodb.png" alt="" class="skill-icon">
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="img">
+                                <img src="img/github.png" alt="" class="skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio" class="portfolio">
+                <div class="view">
+                    <div class="card-grid">
+                        <a class="card-project" href="#">
+                            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)"></div>
+                            <div class="card__content">
+                                <h3 class="card__heading">Social Media</h3>
+                            </div>
+                        </a>
+                        <a class="card-project" href="#">
+                            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+                            <div class="card__content">
+                                <h3 class="card__heading">Example Card Heading</h3>
+                            </div>
+                        </a>
+                        <a class="card-project" href="#">
+                            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+                            <div class="card__content">
+                                <h3 class="card__heading">Example Card Heading</h3>
+                            </div>
+                        </li>
+                        <a class="card-project" href="#">
+                            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+                            <div class="card__content">
+                                <h3 class="card__heading">Example Card Heading</h3>
+                            </div>
+                        </a>
+                    <div>
+                </div>
+            </section>
+            <footer>
+                <section id="contact" class="contact">
+                    <div class="view">
+                        <div class="contact-container">
+                            <!-- <ul class="social-icons">
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-dribbble"></i>
+                                    </a>
+                                </li>
+                            </ul> -->
+                            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                                <div class="contact_left-title">
+                                    <h2>Send me a message</h2>
+                                    <hr>
+                                </div>
+                                <input type="hidden" name="access_key" value="859c5efb-afc5-4d46-bfd3-5f283ed80def">
+                                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required >
+                                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required >
+                                <textarea name="message" placeholder="Your Message" class="contact-inputs"></textarea>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    
 </body>
 </html>
